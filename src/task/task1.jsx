@@ -24,7 +24,7 @@ const Task1 = () => {
 
 
   const postData = async() => {
-    const url = "http://localhost:3000/api/setDoneDataToTask";
+    const url = "https://lokids-server.onrender.com/api/setDoneDataToTask";
     await axios.post(url, {idHomework, idTask, idStudent})
     .then((response) => {
             console.log(response); })
