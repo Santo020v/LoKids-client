@@ -9,7 +9,7 @@ const MyTask = () => {
     const teacherId = localStorage.getItem("teacherId")
 
     const getData = async () => {
-        const url = "http://localhost:3000/api/getTaskByTeacherId";
+        const url = "https://lokids-server.onrender.com/api/getTaskByTeacherId";
             await axios.post(url, {teacherId})
 			.then((response) => {
                 setData(response.data.task);
