@@ -15,7 +15,7 @@ const Login = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-            const url = "http://localhost:3000/api/auth";
+            const url = "https://lokids-server.onrender.com/api/auth";
              await axios.post(url, data)
 			.then((response) => {
 				if(response.data.usertype === "student"){
