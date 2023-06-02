@@ -11,7 +11,7 @@ const MyHomeworkTask = () => {
     const idStudent = localStorage.getItem("studentId");
 
     const getData = async () => {
-        const url = "http://localhost:3000/api/getHomewworkById";
+        const url = "https://lokids-server.onrender.com/api/getHomewworkById";
             await axios.post(url, {idHomework})
 			.then((response) => {
                 setData(response.data.task);
@@ -29,7 +29,7 @@ const MyHomeworkTask = () => {
         if(teacherId !=undefined) {
             localStorage.setItem("idTask", idTask);
             window.location.replace(link);
-            const url = "http://localhost:3000/api/setDoneDataToTask";
+            const url = "https://lokids-server.onrender.com/api/setDoneDataToTask";
             await axios.post(url, {idHomework, idTask, idStudent})
             .then((response) => {
                     console.log(response); })
