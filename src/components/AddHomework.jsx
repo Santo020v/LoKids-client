@@ -16,7 +16,7 @@ const AddHomework = () => {
     const navigate = useNavigate();
 
     const getData = async () => {
-        const url = "http://localhost:3000/api/getAllTask";
+        const url = "https://lokids-server.onrender.com/api/getAllTask";
             await axios.get(url)
 			.then((response) => {
                 setData1(response.data);
@@ -63,7 +63,7 @@ const AddHomework = () => {
     const studentId = _id;
     
     const addHomework = async () => {
-        const url = "http://localhost:3000/api/addHomeworkToStudent";
+        const url = "https://lokids-server.onrender.com/api/addHomeworkToStudent";
         if (tasks.length > 0){
             navigate(`/my-students/${_id}`);
             window.location.reload();
