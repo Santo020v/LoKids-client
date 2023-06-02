@@ -10,7 +10,7 @@ const AllTask = () => {
     const user = localStorage.getItem("studentId")
 
     const getData = async () => {
-        const url = "http://localhost:3000/api/getAllTask";
+        const url = "https://lokids-server.onrender.com/api/getAllTask";
             await axios.get(url)
 			.then((response) => {
                 setData(response.data);
