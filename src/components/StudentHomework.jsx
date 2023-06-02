@@ -9,7 +9,7 @@ const StudentHomework = () => {
     const {_id} = useParams();
 
     const getData = async () => {
-        const url = `http://localhost:3000/api/student/${_id}`;
+        const url = `https://lokids-server.onrender.com/api/student/${_id}`;
             await axios.post(url, {_id})
 			.then((response) => {
                 setData1(response.data);
