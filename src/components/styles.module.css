@@ -1,0 +1,615 @@
+.button_hw{
+    text-decoration: none;
+	position: absolute;
+	width: 18%;
+	background-color: #0096C7;
+	color: #fff;
+	margin: 16px 80%;
+	border-radius: 999px;
+	line-height: 3em;
+	border: none;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+		rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+	padding-left: 20px;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.header_container{
+    width: 100%;
+	height: 70px;
+	background-color: #0096C7;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding-right: 50px;
+}
+
+.login_btn{
+    width: 100%;
+    background-color: #fff;
+    border: 0 solid #e2e8f0;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.login_btn:hover {
+    color: #3e895d;
+  }
+  
+.logo{
+    margin-top: 10px;
+    height: 100px;
+    width: 250px;
+}
+
+.info_for_students{
+    width: 80%;
+    height: auto;
+    background-color: #7AE582;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+.info_for_taechers{
+    width: 80%;
+    height: auto;
+    background-color: #47cdee;
+    border-radius: 20px;
+    margin: 64px auto;
+}
+
+.carousel1_container{
+    margin: 0px auto;
+}
+
+.left_carousel {
+    height: 500px;
+    width: 30%;
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.right_carousel  {
+    height: 500px;
+    width: 50%;
+    float: right;
+    right: 0;
+    margin-right: 100px;
+}
+
+.right_carousel >img{
+    height: 100%;
+    width: 100%;
+}
+
+.left_carousel >p{
+    width: 100%;
+    margin-top: 36px;
+}
+
+.info_for_students>h2{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #66cf6d;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+.info_for_taechers>h2{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #00A5CF;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.homepage_container{
+    height: 1600px;
+    background-color: #edfcff;
+        /* background-image: url('./1600w-_Tcjok-d9b4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%; */
+}
+
+.email{
+    margin-top: 90px;
+    background-color: #8af4cb;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 2px 5px 5px rgba(255, 255, 255, 0.25);
+}
+
+.psyhologyTask{
+    display: flex;
+    flex-flow: row wrap;
+    padding-right: 30px;
+    margin: 50px;
+}
+
+.logopedyTask{
+    display: flex;
+    flex-flow: row wrap;
+    padding-right: 30px;
+    margin: 50px;
+}
+
+.homeworkTask{
+    display: flex;
+    flex-flow: row wrap;
+    padding-right: 30px;
+    margin: 50px;
+}
+
+input[type=checkbox] {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    transform: scale(1.5);
+}
+
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #3bb19b;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.logo{
+	margin-top: 10px;
+    height: 100px;
+    width: 250px;
+}
+
+
+
+.main_container h4{
+    margin-top: 30px;
+}
+
+.listofhomework{
+    width: 30%;
+	margin: 16px auto;
+}
+
+.itemList{
+	text-decoration: none;
+	position: relative;
+	width: 100%;
+	background-color: #0096C7;
+	color: #fff;
+	margin: 16px auto;
+	border-radius: 999px;
+	line-height: 3em;
+	border: none;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+		rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+	padding-left: 20px;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.a2{
+    margin-left: 20%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.a2:hover{
+    color: #fff;
+}
+
+.a3{
+    position: absolute;
+    top: 2px;
+    margin-left: 85%;
+    width: 65px;
+    height: 50px;
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
+    background-color: #9eecff9a;
+    text-align: center;
+}
+
+.addHomework{
+	position: absolute;
+	border-radius: 13px;
+	background-color: #3b91a9;
+	margin-left: 80%;
+    margin-top: 1%;
+	padding: 10px;
+	font-weight: 500;
+	font-size: 18px;
+	border: none;
+}
+
+.addHomework:hover{
+	background-color: #0586a9;
+	border: none;
+}
+
+.body_container{
+	height: 100vh;
+	margin: 0;
+	display: grid;
+	place-items: center;
+	background-color: #fff3eb;
+}
+
+.body_container h6{
+	width: 600px;
+	transform: translatey(0px);
+  	animation: float 5s ease-in-out infinite;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 25px;
+	color: #774f38;
+	background-color: #ece5ce;
+	padding: 50px;
+	border-radius: 11px;
+	position: relative;
+	box-shadow: 20px 20px #83af9b;
+}
+
+.body_container h6:after {
+	transform: translatey(0px);
+	animation: float2 5s ease-in-out infinite;
+	content: ".";
+	font-weight: bold;
+	-webkit-text-fill-color: #ece5ce;
+	text-shadow: 22px 22px  #83af9b;
+	text-align: left;
+	font-size: 55px;
+	width: 55px;
+	height: 11px;
+	line-height: 30px;
+	border-radius: 11px;
+	background-color: #ece5ce;
+	position: absolute;
+	display: block;
+	bottom: -30px;
+	left: 0;
+	box-shadow: 22px 22px  #83af9b;
+	z-index: -2;
+  }
+
+  @keyframes float {
+	0% {
+	  transform: translatey(0px);
+	}
+	50% {
+	  transform: translatey(-20px);
+	}
+	100% {
+	  transform: translatey(0px);
+	}
+  }
+  
+  @keyframes float2 {
+	0% {
+	  line-height: 30px;
+	  transform: translatey(0px);
+	}
+	55% {
+	  transform: translatey(-20px);
+	}
+	60% {
+	  line-height: 10px;
+	}
+	100% {
+	  line-height: 30px;
+	  transform: translatey(0px);
+	}
+  }
+
+
+  .input {
+	outline: none;
+	border: none;
+	width: 370px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #b5e2d6;
+	margin: 5px 0;
+	font-size: 14px;
+}
+
+
+
+.listofstudents{
+	width: 30%;
+	margin: 16px auto;
+}
+
+.itemList{
+	text-decoration: none;
+	position: relative;
+	width: 100%;
+	background-color: #0096C7;
+	color: #fff;
+	margin: 16px auto;
+	border-radius: 999px;
+	line-height: 3em;
+	border: none;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+		rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+	padding-left: 20px;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.addStudent{
+	position: absolute;
+	border-radius: 13px;
+	background-color: #3b91a9;
+    color: #e2e8f0;
+	margin-left: 90%;
+	padding: 10px;
+	font-weight: 500;
+	font-size: 18px;
+	border: none;
+}
+
+.addStudent:hover{
+	background-color: #60c4e0;
+    color: #484747;
+	border: none;
+}
+
+.main h3{
+	width: 70%;
+	margin-top: 40px;
+	margin-left: 15%;
+	border-bottom: 2px solid #63777e;
+}
+
+.main_container h3{
+	width: 70%;
+	margin-top: 40px;
+	margin-left: 15%;
+	border-bottom: 2px solid #63777e;
+}
+  
+.login_container {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.login_form_container {
+	width: 900px;
+	height: 500px;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.left {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.form_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form_container h1 {
+	font-size: 40px;
+	margin-top: 0;
+}
+
+.form_container h6 {
+	margin-top: 1px;
+	margin-bottom: 30px;
+}
+
+.error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 20px 0;
+	margin-left: 20%;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+
+.right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #0096C7;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.right h1 {
+	margin-top: 0;
+	color: white;
+	font-size: 35px;
+	align-self: center;
+	margin-bottom: 30px;
+}
+
+.white_btn,
+.green_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.green_btn {
+	background-color: #0096C7;
+	color: white;
+	margin: 10px;
+}
+
+.img_btn{
+	width: 45px;
+	height: 35px;
+	margin-top: -340px;
+	margin-left: 250px;
+}
+
+.singup_container {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.signup_form_container {
+	width: 900px;
+	height: 500px;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.left_reg {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #0096C7;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.left_reg h1 {
+	margin-top: 0;
+	color: white;
+	font-size: 35px;
+	align-self: center;
+	margin-bottom: 20px;
+}
+
+.right_reg {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.img_btn_reg{
+	width: 45px;
+	height: 35px;
+	margin-top: -50px;
+	margin-left: 550px;
+}
+
+.addtask_btn{
+	padding: 13px 50px;
+	background-color: #66cf6d;
+	border-radius: 20px;
+	font-weight: 500;
+	font-size: 20px;
+	border: none;
+	margin-top: 1%;
+	margin-left: 75%;
+}
+
+.main_container>h4{
+	margin-left: 5%;
+	font-weight: 500;
+	background-color: #66cf6d;
+	padding: 10px 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 2px;
+}
+
+.form_container{
+	position: relative;
+}
+
+.checkbox{
+	margin-right: 30px;
+}
+
+.title_container>label, .text_container>label, .link_container>label{
+	margin-right: 30px;
+	font-weight: 500;
+}
+
+.button_addTask{
+	padding: 13px 20px;
+	background-color: #66cf6d;
+	border-radius: 20px;
+	font-weight: 400;
+	border: none;
+}
