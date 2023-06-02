@@ -20,7 +20,7 @@ const AllTaskTeacher = () => {
 
 
     const getData = async () => {
-        const url = "http://localhost:3000/api/getAllTask";
+        const url = "https://lokids-server.onrender.com/api/getAllTask";
             await axios.get(url)
 			.then((response) => {
                 setData(response.data);
@@ -81,7 +81,7 @@ const AllTaskTeacher = () => {
         console.log(teacherId);			
         e.preventDefault();
 		try {
-            const url = "http://localhost:3000/api/addTask";
+            const url = "https://lokids-server.onrender.com/api/addTask";
              await axios.post(url, {data1, teacherId})
 			.then((response) => {
                 console.log(response.data);
