@@ -65,8 +65,8 @@ const AddHomework = () => {
     const addHomework = async () => {
         const url = "https://lokids-server.onrender.com/api/addHomeworkToStudent";
         if (tasks.length > 0){
-            navigate(`/my-students/${_id}`);
-            window.location.reload();
+            //navigate(`/my-students/${_id}`);
+            //window.location.reload();
             await axios.post(url, {tasks, studentId, date, isDone, score})
             .then((response) => {
                 setHomework(response.data);
